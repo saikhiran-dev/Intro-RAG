@@ -1,0 +1,24 @@
+
+    What is RAG?
+        Retrieval augmented generation, or RAG, is an architecture for optimizing the performance of an artificial intelligence (AI) model by connecting it with external knowledge bases.
+        RAG helps large language models (LLMs) deliver more relevant responses at a higher quality.
+        Generative AI (gen AI) models are trained on large datasets and refer to this information to generate outputs.
+        However, training datasets are finite and limited to the information the AI developer can access—public domain works, internet articles, social media content and other publicly accessible data.
+        RAG allows generative AI models to access additional external knowledge bases, such as internal organizational data, scholarly journals and specialized datasets.
+        By integrating relevant information into the generation process, chatbots and other natural language processing (NLP) tools can create more accurate domain-specific content without needing further training.
+
+    What are the benefits of RAG?
+        RAG empowers organizations to avoid high retraining costs when adapting generative AI models to domain-specific use cases.
+        Enterprises can use RAG to complete gaps in a machine learning model’s knowledge base so it can provide better answers.
+
+        The primary benefits of RAG include:
+
+            Cost-efficient AI implementation and AI scaling
+            Access to current domain-specific data
+            Lower risk of AI hallucinations
+            Increased user trust
+            Expanded use cases
+            Enhanced developer control and model maintenance
+            Greater data security
+
+    

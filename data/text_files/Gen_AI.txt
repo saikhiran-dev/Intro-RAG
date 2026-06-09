@@ -1,0 +1,15 @@
+
+    What is Generative AI?
+        Generative artificial intelligence (generative AI) is a type of AI that can create new content and ideas, including conversations, stories, images, videos, and music.
+        It can learn human language, programming languages, art, chemistry, biology, or any complex subject matter.
+        It reuses what it knows to solve new problems. For example, it can learn English vocabulary and create a poem from the words it processes. 
+        Your organization can use generative AI for various purposes, like chatbots, media creation, product development, and design.
+
+    What is the difference between AI and Generative AI?
+        Artificial intelligence is the broader concept of making machines more human-like. It includes everything from smart assistants like Alexa, chatbots, and image generators to robotic vacuum cleaners and self-driving cars. Generative AI is a subset that generates new content meaningfully and intelligently.
+
+    When was generative AI created?
+        Generative AI emerged in the late 2010s with advancements in deep learning, particularly with models like Generative Adversarial Networks (GANs) and transformers.
+         Advances in cloud computing have made generative AI commercially viable and available since 2022.
+
+    
