@@ -4,9 +4,8 @@ A small Python project for experimenting with Retrieval-Augmented Generation (RA
 
 ## Prerequisites
 
-- Python 3.11.
+- Python 3.11. (supports all libraries. latest version doesn't have full support yet)
 - uv (instead of pip)
-- A virtual environment is strongly recommended.
 - Windows OS (this workspace has been tested on Windows).
 
 ## Setup Instructions
@@ -14,11 +13,12 @@ A small Python project for experimenting with Retrieval-Augmented Generation (RA
 1. Open a terminal in the project root.
 2. Create and activate a virtual environment if not already active:
 
+   I have used uv - you can use  [ pip install uv ] to install directly in vs code.
+
    ```
-   1. Open VS Code terminal
-   2. uv pip install
-   python -m venv .venv
-   .\.venv\Scripts\Activate
+   1. uv init
+   2. uv venv
+   3: .venv\Scripts\Activate
    ```
 
 3. Install the required Python dependencies:
@@ -34,13 +34,12 @@ A small Python project for experimenting with Retrieval-Augmented Generation (RA
 
 ## Development Notes
 
-- `main.py` currently contains only a placeholder entrypoint.
 - The project dependencies are managed in `pyproject.toml` and declared in `requirements.txt`.
 - The notebooks under `notebook/` are for exploring PDF loading and text embedding workflows.
 
 ## Data Files
 
-- Place source PDFs into `data/pdf/`.
+- Pace source PDFs into `data/pdf/`.
 - Place plain text files into `data/text_files/`.
 - When building a RAG pipeline, use these files as the corpus for document loading, embedding creation, and retrieval.
 
@@ -57,7 +56,7 @@ ModuleNotFoundError: No module named 'langchain'
 Fix:
 
 - Activate the `.venv` environment before installing or running code.
-- Use `pip install -r requirements.txt` inside the active environment.
+- Use `uv add -r requirements.txt` inside the active environment.
 
 ### 2. PyTorch installation issues
 
@@ -75,8 +74,6 @@ Fix:
   ```powershell
   pip install torch==2.8.0 torchvision==0.23.0 torchaudio==2.8.0
   ```
-
-- If you do not need GPU support, use the CPU-only packages consistent with your Python version.
 
 ### 3. FAISS import or installation problems
 
